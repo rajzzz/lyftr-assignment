@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - db_data:/data
+    env_file:
+      - .env
+
+volumes:
+  db_data:

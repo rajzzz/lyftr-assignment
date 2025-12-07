@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic-settings
+sqlalchemy
+aiosqlite
+structlog
+prometheus-fastapi-instrumentator
+python-multipart
+python-dotenv
