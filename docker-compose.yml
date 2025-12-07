@@ -7,10 +7,10 @@ services:
       - "8000:8000"
     volumes:
       - db_data:/data
-  environment:
-        - WEBHOOK_SECRET
-        - DATABASE_URL
-        - LOG_LEVEL
+    environment:
+          - WEBHOOK_SECRET
+          - DATABASE_URL
+          - LOG_LEVEL
 
 volumes:
   db_data:
